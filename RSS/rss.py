@@ -1,10 +1,37 @@
 import sys
 import os
 import urllib2
+import time
+import socket
+import subprocess
+from subprocess import Popen, PIPE
 from bs4 import BeautifulSoup
 
-if len(sys.argv) != 3:
-	sys.exit("\nError en numero de parametros\n\nPara ejecutar este script debes usar dos parametros:\n1-URL de la RSS\n2-Carpeta donde se guardaran los resultados\n")
+# Devueleve si el puerto esta abierto o no
+def check_port_open(port):
+	sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+	result = sock.connect_ex(('127.0.0.1',port))
+	if result == 0:
+   		return True
+	else:
+   		return False
+
+
+if len(sys.argv) < 2:
+	sys.exit("\nError en numero de parametros\n\nPara ejecutar este script debes usar un parametros:\n1-URL de la RSS\n")
+
+
+# Comprobamos que los servicios de ixa pipes estan en marcha.
+if (not check_port_open(9002)):
+	
+	# Poner los ixa en mode server en marcha. Tardan un rato por lo que paramos unos segundos
+	os.system('./ixa_init.sh')
+
+	# Esperamos hasta que esten en marcha comprobando cada dos segundos
+	ixa_ready = False
+	while not ixa_ready:
+		time.sleep(2)
+		ixa_ready = check_port_open(9002)
 
 # http://www.crummy.com/software/BeautifulSoup/bs4/doc/
 
@@ -32,8 +59,14 @@ for item in rss.findAll('item'):
 	body = soup.find(itemprop="articleBody")
 	if body:
 		result = body.get_text()
-
-		f = open(sys.argv[2]+str(i)+'.txt', 'w')
+		file_path = 'temp/'+str(i)+'.txt'
+		f = open(file_path, 'w')
 		f.write(result.encode('utf8'))
 		f.close
 		i+=1
+		if i == 1:
+			print file_path
+			# http://stackoverflow.com/a/4106696
+			p2 = Popen('java -jar ./ixa-pipes/ixa-pipe-tok.jar client -p 9000 <' + file_path, stdout=PIPE, shell=True)
+			p3 = Popen('java -jar ./ixa-pipes/ixa-pipe-pos.jar client -p 9001', stdin=p2.stdout, stdout=PIPE, shell=True)
+			p4 = Popen('java -jar ./ixa-pipes/ixa-pipe-nerc.jar client -p 9002 > temp/proba.txt', stdin=p3.stdout, shell=True)
