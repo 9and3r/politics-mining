@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="es" version="v1.naf">
+  <nafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="ixa-pipe-tok-es" beginTimestamp="2016-04-02T14:05:24+0200" endTimestamp="2016-04-02T14:05:24+0200" version="1.8.4-a8477645be9385838f746c3650f30f3cc24e3cb3" hostname="Asus-PC" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ixa-pipe-pos-es-pos-perceptron-autodict01-ancora-2.0" beginTimestamp="2016-04-02T14:05:24+0200" endTimestamp="2016-04-02T14:05:24+0200" version="1.5.1-ecc45557cc73e96d9634cde7b50eb78533e0c2f6" hostname="Asus-PC" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="entities">
+      <lp name="ixa-pipe-nerc-es-clusters-conll02" beginTimestamp="2016-04-02T14:05:24+0200" endTimestamp="2016-04-02T14:05:24+0200" version="1.5.4-05a6e800e7c243eb48f075b8461b3a30df5891d4" hostname="Asus-PC" />
+    </linguisticProcessors>
+  </nafHeader>
+</NAF>
