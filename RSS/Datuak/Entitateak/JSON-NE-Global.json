@@ -1,0 +1,64 @@
+{
+    "PP": {
+        "name":"Partido Popular",
+        "ideology": "centroderecha/derecha",
+        "members": {
+            "president":"Mariano Rajoy",
+            "secretary-general":"María Dolores Cospedal",
+            "spokesperson":{
+                "Congress":"Rafael Hernando",
+                "Senate":"José Manuel Barreiro"
+                },
+            "Founder":"Manuel Fraga Iribarne"
+            }
+        },
+
+    "PSOE":{
+        "name":"Partido Socialista Obrero Español",
+        "ideology": "centroizquierda",
+        "members": {
+            "president":"Micaela Navarro",
+            "secretary-general":"Pedro Sánchez",
+            "spokesperson":{
+                "Congress":"Antonio Hernando",
+                "Senate":"María Chivite"
+                },
+            "Founder":"Pablo Iglesias Posse"
+            }
+        },
+
+    "CS":{
+        "name":"Ciudadanos",
+        "ideology": "centro/centroderecha",
+        "members": {
+            "president":"Albert Rivera",
+            "secretary-general":"Matías Alonso",
+            "spokesperson":{
+                "Congress":"Juan Carlos Girauta"
+                },
+            "Founder":"Albert Rivera"
+            }
+        },
+    "PODEMOS":{
+        "name":"Podemos",
+        "ideology": "izquierda",
+        "members": {
+            "secretary-general":"Pablo Iglesias",
+            "spokesperson":{
+                "Congress":"Iñigo Errejón",
+                "Senate":"Ramón Espinar Merino"
+                },
+            "Founder":"Pablo Iglesias"
+            }        
+        },
+
+    "IU":{
+        "name":"Izquierda Unida",
+        "ideology": "izquierda",
+        "members": {
+            "president":"Alberto Grazón",
+            "secretary-general":"Cayo Lara",
+            "Founder":"Gerardo Iglesias"
+            }        
+    }
+}
