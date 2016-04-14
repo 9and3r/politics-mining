@@ -1,0 +1,136 @@
+{
+	"president":{
+		"name":"Mariano",
+		"surname":"Rajoy",
+		"affiliation":"PP"
+	},
+	"vicepresident":{
+		"name":"Soraya",
+		"surname":"Sáenz de Santamaría",
+		"affiliation":"PP"
+
+	},
+	"Ministers":{
+		"justice":{
+			"name":"Rafael",
+			"surname":"Catalá Polo",
+			"affiliation":"PP"
+		},
+		"defense":{
+			"name":"Pedro",
+			"surname":"Morenés Eulate",
+			"affiliation":"PP"
+		},
+		"foreign-affairs":{
+			"name":"José Manuel",
+			"surname":"García-Margallo y Marfil",
+			"affiliation":"PP"
+		},
+		"cooperation":{
+			"name":"José Manuel",
+			"surname":"García-Margallo y Marfil",
+			"affiliation":"PP"
+		},
+		"treasury":{
+			"name":"Cristóbal",
+			"surname":"Montoro Romero",
+			"affiliation":"PP"
+			},
+		"administration-services":{
+			"name":"Cristóbal",
+			"surname":"Montoro Romero",
+			"affiliation":"PP"
+			},
+		"home-affairs":{
+			"name":"Jorge",
+			"surname":"Fernández Díaz",
+			"affiliation":"PP"
+		},
+		"public-works":{
+			"name":"Ana María",
+			"surname":"Pastor Julián",
+			"affiliation":"PP"
+		},
+		"education":{
+			"name":"Iñigo",
+			"surname":"Méndez de Vigo y Montojo",
+			"affiliation":"PP"
+		},
+		"culture":{
+			"name":"Iñigo",
+			"surname":"Méndez de Vigo y Montojo",
+			"affiliation":"PP"
+		},
+		"sports":{
+			"name":"Iñigo",
+			"surname":"Méndez de Vigo y Montojo",
+			"affiliation":"PP"
+		},
+		"employment":{
+			"name":"María Fátima",
+			"surname":"Báñez García",
+			"affiliation":"PP"
+		},
+		"social-security":{
+			"name":"María Fátima",
+			"surname":"Báñez García",
+			"affiliation":"PP"
+		},
+		"industry":{
+			"name":"José Manuel",
+			"surname":"Soria López",
+			"affiliation":"PP"
+		},
+		"energy":{
+			"name":"José Manuel",
+			"surname":"Soria López",
+			"affiliation":"PP"
+		},
+		"tourism":{
+			"name":"José Manuel",
+			"surname":"Soria López",
+			"affiliation":"PP"
+		},
+		"agriculture":{
+			"name":"Isabel",
+			"surname":"García Tejerina",
+			"affiliation":"PP"
+		},
+		"food":{
+			"name":"Isabel",
+			"surname":"García Tejerina",
+			"affiliation":"PP"
+		},
+		"enviromental-affairs":{
+			"name":"Isabel",
+			"surname":"García Tejerina",
+			"affiliation":"PP"
+		},
+		"economic-affairs":{
+			"name":"Luis",
+			"surname":"Guindos Jurado",
+			"affiliation":"PP"
+		},
+		"competitiveness":{
+			"name":"Luis",
+			"surname":"Guindos Jurado",
+			"affiliation":"PP"
+		},
+		"health":{
+			"name":"Alfonso",
+			"surname":"Alonso Arranegui",
+			"affiliation":"PP"
+		},
+		"social-services":{
+			"name":"Alfonso",
+			"surname":"Alonso Arranegui",
+			"affiliation":"PP"
+		},
+		"equality":{
+			"name":"Alfonso",
+			"surname":"Alonso Arranegui",
+			"affiliation":"PP"
+		}
+		
+	}
+}
