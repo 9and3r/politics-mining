@@ -6,6 +6,7 @@ import socket
 import subprocess
 from subprocess import Popen, PIPE
 from bs4 import BeautifulSoup
+from nerc_parse import *
 
 # Devueleve si el puerto esta abierto o no
 def check_port_open(port):
@@ -64,9 +65,22 @@ for item in rss.findAll('item'):
 		f.write(result.encode('utf8'))
 		f.close
 		i+=1
+
+		# TODO Quitar el if. Para ir mas rapido solo se realizara con el primer item
 		if i == 1:
 			print file_path
 			# http://stackoverflow.com/a/4106696
 			p2 = Popen('java -jar ./ixa-pipes/ixa-pipe-tok.jar client -p 9000 <' + file_path, stdout=PIPE, shell=True)
 			p3 = Popen('java -jar ./ixa-pipes/ixa-pipe-pos.jar client -p 9001', stdin=p2.stdout, stdout=PIPE, shell=True)
 			p4 = Popen('java -jar ./ixa-pipes/ixa-pipe-nerc.jar client -p 9002 > temp/nerc.txt', stdin=p3.stdout, shell=True)
+			p4.wait()
+			
+			# Guardar el texto y el resultado
+			result_file = 'results/'+str(i)+'.txt'
+			f = open(result_file, 'w')
+			f.write(parse_nerc('temp/nerc.txt'))
+			f.write("###################################################")
+			f.write(result.encode('utf8'))
+			f.close
+			break
+			

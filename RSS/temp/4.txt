@@ -1,6 +1,18 @@
 
-El vicesecretario de Sectorial del PP, Javier Maroto, ha trasladado este domingo al líder socialista, Pedro Sánchez, que todavía hay una oportunidad "de verdad" para que abandone el "bloqueo" y se pueda conformar un gobierno "sólido, transversal e inédito" entre el Partido Popular y el PSOE. Sin embargo, ha desvelado que si no se produce un cambio de actitud en Sánchez, no se producirá la anunciada llamada del presidente en funciones, Mariano Rajoy, al líder socialista.
-"En el primer segundo en el que detectemos que Sánchez abandona el bloqueo" habrá un "puente" para conformar ese gobierno, ha dicho Maroto en el transcurso de una rueda de prensa en Vitoria tras lamentar, no obstante, que el líder socialista siga a estas horas "instalado en el no".
+Google se ha convertido en el caso estrella de las autoridades europeas de competencia. La Comisión Europea ha acusado formalmente al gigante tecnológico de abusar de su posición dominante al obligar a los fabricantes y operadores de los móviles y tabletas que operan con Android a instalar de forma predeterminada servicios como su propio buscador y su navegador Chrome. Los de sus competidores quedan así desplazados. "Las compañías dominantes tienen la responsabilidad de no abusar restringiendo la competencia. Google ha abusado de su posición de dominio", ha sentenciado la comisaria europea del ramo, Margrethe Vestager, al presentar los cargos a la prensa.
+
+
+
+
+
+Statement of Objections to Google: It seems like you are abusing your dominant position by imposing restrictions on Andriod device makers.
+— Margrethe Vestager (@vestager) 20 de abril de 2016
+
+
+
+
+Se trata de una conclusión aún preliminar porque el pliego de cargos representa la primera fase en el proceso de infracción que se abre a una compañía por presuntas prácticas anticompetitivas. Desde ahora, la entidad dispone de 12 semanas para hacer alegaciones y también puede pedir una vista oral. Si en última instancia no convence a Bruselas de la legalidad de su comportamiento, se arriesga a multas de hasta el 10% de su facturación. En el caso Google, una de las mayores empresas del mundo por facturación, esa cantidad rondaría los 6.500 millones. Resulta, no obstante, poco probable alcanzar esos niveles; el Ejecutivo comunitario nunca ha impuesto una sanción tan elevada.
+La decisión de Bruselas, ratificada este miércoles por el Ejecutivo comunitario, la adelantó en primera instancia el diario británico Financial Times y la confirmó el martes EL PAÍS tras consultar con fuentes comunitarias y del sector tecnológico. Se trata de la segunda ofensiva que lanzan las autoridades europeas contra la firma fundada por Larry Page por vulnerar la competencia. El primer caso, abierto hace un año, aludía a unas prácticas que han recibido muchas más denuncias en Bruselas que las de Android. Se trata del trato preferencial que da Google a sus propios servicios en las búsquedas por Internet. El pliego de cargos se centró en el servicio de comparativa de precios Google Shopping, pero el Ejecutivo investiga otros casos como el de viajes o mapas.
 
 
 
@@ -11,21 +23,33 @@ MÁS INFORMACIÓN
 
 
 
-“Rajoy quiere presidir a cualquier precio”
+
+
+
+
+
+Bruselas abre otra ofensiva contra Google por su sistema Android
 
 
 
 
 
 
-La caída de Soria compromete a Rajoy y complica la crisis política
+Análisis | Nanas europeas de la cebolla fiscal
 
 
 
 
 
 
-Rajoy evita hablar de Soria y se dedica a la campaña electoral
+Google prepara la batalla contra la UE
+
+
+
+
+
+
+Margrethe Vestager, guardiana de la competencia europea
 
 
 
@@ -34,8 +58,9 @@ Rajoy evita hablar de Soria y se dedica a la campaña electoral
 
 
 
-El dirigente del PP ha recordado la oferta que ha planteado al PSOE desde el pasado 21 de diciembre para conformar una gran coalición de gobierno y ha confiado en que ahora, en el "tiempo de descuento" que hay antes de que se repitan las elecciones, Sánchez cambie su opinión, una vez que ha explorado "todas las opciones que no suman" y que han acabado en un "sonoro fracaso".
-Maroto ha insistido en que queda la "opción cabal" de conformar un gobierno entre el PP y el PSOE "perfectamente asumible y negociable" al que luego se podrían incorporar otros partidos como Ciudadanos.
-El vicesecretario del PP también se ha pronunciado sobre la renuncia de José Manuel Soria como ministro de Industria, Energía y Turismo en funciones por su aparición en los papeles de Panamá y sus explicaciones sobre el asunto.
-"Ha sido una decisión rápida, eficaz y acertada", que, según ha subrayado, coincide con esa calidad democrática que requiere que las palabras de un ministro se ajusten siempre a los hechos que ha descrito.
-"Cuando no es así, se toma esa decisión que es compartida con fisuras en el Gobierno y en el Partido Popular", ha remarcado.
+Google ha respondido a la apertura del proceso con una cerrada defensa de su modelo: "Nos tomamos estas preocupaciones [de la Comisión] muy en serio, pero creemos que nuestro modelo de negocio permite a los fabricantes reducir sus costes, tener mayor flexibilidad y ofrecer a los clientes un control sobre sus dispositivos móviles sin precedentes", asegura el vicepresidente Kent Walker. La empresa argumenta, además, que Android constituye un "motor para la innovación", que el Ejecutivo comunitario le acusa de frenar.
+El alcance de cualquier tipo de restricción de la competencia a través de este sistema es enorme. El 80% de los móviles del mundo tienen Android, según datos desgranados por Vestager, y aproximadamente la mitad de las búsquedas por Internet prodece de estos dispositivos. Más allá de la dimensión técnica, el caso encierra fuertes connotaciones políticas. La ofensiva de la Comisión ha creado malestar en Estados Unidos, que considera que la UE está castigando la innovación norteamericana. La comisaria rechaza esta idea: "Si hay abuso de posición dominante, entonces tenemos un caso. No nos importa la bandera ni el propietario de la compañía".
+El pliego de cargos, que no es público, recoge tres inquietudes de Bruselas. La primera, que en sus contratos con los fabricantes de móviles, Google obliga a incluir como predeterminados el buscador Google Search y el navegador Chrome para ofrecer la tienda de aplicaciones de la compañía. Eso hace que ni las empresas ni los consumidores se preocupen por buscar otros. La segunda, que si el fabricante quiere ofrecer aplicaciones ya instaladas de Google, debe firmar un "acuerdo de antifragmentación" por el que se compromete a no ofrecer un Android libre, de forma que cada fabricante pueda añadirle lo que quiera. La tercera objeción era hasta ahora desconocida. Competencia reprocha a la firma estadounidense que ofrezca "incentivos económicos significativos" para instalar de manera exclusiva el navegador Chrome.
+El comportamiento de Android ha merecido la denuncia formal de cuatro asociaciones (la primera, Fair Search) que se ven perjudicadas por estas prácticas.
+El contencioso por Android recuerda otro de los hitos de competencia de la Comisión Europea: el caso Microsoft, empresa que recibió casi 1.700 millones de multa por incorporar en su oferta para PC el navegador de la compañía, Internet Explorer. Microsoft es, ahora, una de las denunciantes de la supremacía de Google.
+ 

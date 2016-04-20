@@ -36,10 +36,11 @@ def findBest(personas, partidos):
 	return best
 		
 
-def parse_nerc(i):
-	xml = BeautifulSoup(open('temp/nerc.txt'), "xml")
+def parse_nerc(path):
+	xml = BeautifulSoup(open(path), "xml")
 	partidos = {}
 	personas = {}
+	print xml
 	for item in xml.entities:
 		if type(item) == bs4.element.Tag:
 			if item['type'] == 'PER' or item['type'] == 'ORG':
@@ -57,8 +58,5 @@ def parse_nerc(i):
 						partidos[name] += 1
 					except KeyError:
 						partidos[name] = 1
-	print findBest(personas, partidos)
+	return findBest(personas, partidos)
 			
-			
-	
-parse_nerc(0)
