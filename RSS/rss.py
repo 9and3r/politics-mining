@@ -69,4 +69,5 @@ for item in rss.findAll('item'):
 			# http://stackoverflow.com/a/4106696
 			p2 = Popen('java -jar ./ixa-pipes/ixa-pipe-tok.jar client -p 9000 <' + file_path, stdout=PIPE, shell=True)
 			p3 = Popen('java -jar ./ixa-pipes/ixa-pipe-pos.jar client -p 9001', stdin=p2.stdout, stdout=PIPE, shell=True)
-			p4 = Popen('java -jar ./ixa-pipes/ixa-pipe-nerc.jar client -p 9002 > temp/proba.txt', stdin=p3.stdout, shell=True)
+			p4 = Popen('java -jar ./ixa-pipes/ixa-pipe-nerc.jar client -p 9002 > temp/nerc.txt', stdin=p3.stdout, shell=True)
+			
