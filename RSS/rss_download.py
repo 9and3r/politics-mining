@@ -35,21 +35,15 @@ for item in rss.findAll('item'):
 		# Se obtiene el texto limpiado
 		result = body.get_text()
 		
-		# Se abre el fichero de texto para guardar la noticia
+		# Guardar los datos en el fichero
 		file_path = sys.argv[2] + format_filename(item.title.get_text()) + '.txt'
 		f = open(file_path, 'w')
-
-		# Titulo de la noticia
+		f.write(result.encode('utf8'))
+		f.write('##########\n')
 		f.write('title=' + link.encode('utf-8') + '\n')
-
-		# Dominio de la noticia
 		domain = link[link.index('//')+2:]
 		domain = domain[:domain.index('/')]
 		f.write('domain=' + domain + '\n')
-		f.write('##########\n')
-
-		# Escribir el texto y cerrar el fichero
-		f.write(result.encode('utf8'))
 		f.close
 	else:
 		# Si el articulo no contiene articleBody no sera procesado y se imprimira en pantalla su titulo y el link
