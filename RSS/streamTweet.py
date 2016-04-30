@@ -19,7 +19,7 @@ def procesarTweet(tweet, folder):
 
 	# Guardar los datos en el fichero
 	f = open(folder + format_filename(title) +'.txt', 'w')
-	f.write(text.encode('utf-8'))
+	f.write(text.encode('utf-8') + '\n')
 	f.write('##########\n')
 	f.write('title=' + title.encode('utf-8') + '\n')
 	f.write('domain=twitter.com\n')

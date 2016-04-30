@@ -38,7 +38,7 @@ for item in rss.findAll('item'):
 		# Guardar los datos en el fichero
 		file_path = sys.argv[2] + format_filename(item.title.get_text()) + '.txt'
 		f = open(file_path, 'w')
-		f.write(result.encode('utf8'))
+		f.write(result.encode('utf8') + '\n')
 		f.write('##########\n')
 		f.write('title=' + link.encode('utf-8') + '\n')
 		domain = link[link.index('//')+2:]
