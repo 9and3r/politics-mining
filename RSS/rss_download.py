@@ -16,8 +16,9 @@ rss = BeautifulSoup(rss_xml, "xml")
 
 # Cada item representa una noticia
 for item in rss.findAll('item'):
-	#print item
-	page = urllib2.urlopen(item.link.get_text()).read()
+
+	link = item.link.get_text()
+	page = urllib2.urlopen(link).read()
 
 	soup = BeautifulSoup(page, 'html.parser')
 
@@ -31,11 +32,23 @@ for item in rss.findAll('item'):
 	#
 	body = soup.find(itemprop="articleBody")
 	if body:
+		# Se obtiene el texto limpiado
 		result = body.get_text()
+		
+		# Se abre el fichero de texto para guardar la noticia
 		file_path = sys.argv[2] + format_filename(item.title.get_text()) + '.txt'
 		f = open(file_path, 'w')
-		f.write('title=' + item.title.get_text().encode('utf-8') + '\n')
+
+		# Titulo de la noticia
+		f.write('title=' + link.encode('utf-8') + '\n')
+
+		# Dominio de la noticia
+		domain = link[link.index('//')+2:]
+		domain = domain[:domain.index('/')]
+		f.write('domain=' + domain + '\n')
 		f.write('##########\n')
+
+		# Escribir el texto y cerrar el fichero
 		f.write(result.encode('utf8'))
 		f.close
 	else:

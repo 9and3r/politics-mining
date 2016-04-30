@@ -1,6 +1,6 @@
 import string
 
-
+# https://gist.github.com/seanh/93666
 def format_filename(s):
     """Take a string and return a valid filename constructed from the string.
 Uses a whitelist approach: any characters not present in valid_chars are
