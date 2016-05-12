@@ -5,6 +5,7 @@ import socket
 import time
 import sys
 from subprocess import Popen, PIPE
+from name_responder import *
 
 # Devueleve si el puerto esta abierto o no
 def check_port_open(port):
@@ -14,16 +15,6 @@ def check_port_open(port):
    		return True
 	else:
    		return False
-
-# TODO
-# Metodo no completado (Urkidi)
-def getPersona(name):
-	return name
-
-# TODO
-# Metodo no completado (Urkidi)
-def getPartido(name):
-	return name 
 
 # Busca la persona/partido que mas se menciona. Hay que pasarle dos diccionarios. 
 # personas: diccionario que contiene como keys cada una de las personas del texto y el valor es el numero de veces que aparece
@@ -40,7 +31,7 @@ def findBest(personas, partidos):
 			best = key
 			best_times = personas[key]
 	if not best:
-		for key in personas:
+		for key in partidos:
 			if best:
 				if best_times < partidos[key]:
 					best = key
@@ -63,16 +54,20 @@ def parse_nerc(path):
 					name = name[name.find('<!--') + len('<!--'): name.find('-->')]
 				
 					if item['type'] == 'PER':
-						key = getPersona(name)
-						try:
-							personas[key] += 1
-						except KeyError:
-							personas[key] = 1
+						key = who_is_this(name)
+						if key:
+							try:
+								personas[key] += 1
+							except KeyError:
+								personas[key] = 1
 					else:
-						try:
-							partidos[name] += 1
-						except KeyError:
-							partidos[name] = 1
+						key = this_party(name)
+						if key:
+							try:
+								partidos[name] += 1
+							except KeyError:
+								partidos[name] = 1
+	print partidos
 	return findBest(personas, partidos)
 
 
@@ -82,20 +77,21 @@ def nerc(path):
 	# Leemos el fichero
 	f = open(path, 'r')
 	text = f.read()
+	f.close()
 	
-	# Dejamos solo el texto eliminando la informacion extra
-	text = text[:text.index('##########')]
-
-	# Pasamos los ixa pipes para detectar nombres
 	try:
+		# Dejamos solo el texto eliminando la informacion extra
+		text = text[:text.index('##########')]
+
+		# Pasamos los ixa pipes para detectar nombres
 		p2 = Popen('echo "' + text + '" | java -jar ./ixa-pipes/ixa-pipe-tok.jar client -p 9000', stdout=PIPE, shell=True)
 		p3 = Popen('java -jar ./ixa-pipes/ixa-pipe-pos.jar client -p 9001', stdin=p2.stdout, stdout=PIPE, shell=True)
-		p4 = Popen('java -jar ./ixa-pipes/ixa-pipe-nerc.jar client -p 9002 > temp/nerc.txt', stdin=p3.stdout, shell=True)
+		p4 = Popen('java -jar ./ixa-pipes/ixa-pipe-nerc.jar client -p 9002 > nerc.txt', stdin=p3.stdout, shell=True)
 		p4.wait()
 
 
 		# Comprobamos de quien se habla en el texto usando la informacion del ixa-pipe-nerc
-		hablaDe = parse_nerc('temp/nerc.txt')
+		hablaDe = parse_nerc('nerc.txt')
 		print hablaDe
 		if hablaDe:
 			# Anadimos la nueva informacion al fichero
@@ -104,12 +100,11 @@ def nerc(path):
 			f.close()
 		else:
 			# El fichero no nos interesa por lo que sera eliminado
-			#os.remove(path)
+			os.remove(path)
 			print "No se ha encontrado ningun politico o partido. El archivo se ha eliminado: " + path + "\n"
-			print text
 	except:
-		print "Error realizando en ixa-pipes"
-	f.close()
+		print "Error realizando en ixa-pipes o el fichero de entrada no es correcto:"
+		print path
 
 	
 

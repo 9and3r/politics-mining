@@ -38,7 +38,10 @@ def who_is_this(keyword):
 	 		
 	 			surname = lineinfo[2]
 	 		
-	print(name + ' ' + surname) 	
+	if len(name + surname) > 0:
+		return name + ' ' + surname
+	else:
+		return False
 	
 def this_party(keyword):
 	arr=[]
@@ -66,9 +69,12 @@ def this_party(keyword):
 	 			complete = lineinfo[1]
 
 	if(name =='PSOE'):
-		print(name)
+		return name
 	else:
-		print(complete)	
+		if len(complete) > 0:
+			return complete
+		else:
+			return False
 #arr[0] = arr[0].encode('UTF-8')
 
 # -*- coding: utf-8 -*-

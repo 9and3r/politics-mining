@@ -1,0 +1,5 @@
+RT PSOE: El PSOE suprimirá toda la publicidad exterior. TODA. Oscar López Agueda #UnaCampañaDiferente
+##########
+title=Pedro SánchezRT PSOE: El PSO
+domain=twitter.com
+about=PSOE

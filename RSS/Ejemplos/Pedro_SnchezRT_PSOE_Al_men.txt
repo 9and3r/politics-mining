@@ -1,0 +1,5 @@
+RT PSOE: Al menos 80 personas muertas por tres atentados perpetrados en Bagdad. Nuestras condolencias al pueblo iraquí y nuestra condena m…
+##########
+title=Pedro SánchezRT PSOE: Al men
+domain=twitter.com
+about=PSOE

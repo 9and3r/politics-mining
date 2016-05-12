@@ -1,0 +1,5 @@
+RT Partido Popular: Si no quieres que gobierne Podemos vota al Partido Popular, esta es nuestra premisa. Somos el voto útil Pablo Casado Blanco
+##########
+title=Mariano Rajoy BreyRT Partido Popu
+domain=twitter.com
+about=Partido Popular

@@ -1,0 +1,5 @@
+RT PSOE: Mucha gente que apoyó a Podemos está decepcionada porque Iglesias utilizó su voto para bloquear el cambio Antonio Hernando en @HoyP…
+##########
+title=Pedro SánchezRT PSOE: Mucha 
+domain=twitter.com
+about=Antonio Hernando

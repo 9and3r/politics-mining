@@ -1,0 +1,5 @@
+RT PSOE SENADO: El PSOE es un partido autónomo. Los días de la política espectáculo se ha terminado. Podemos ha votado a Rajoy @oscarlopezt…
+##########
+title=Pedro SánchezRT PSOE SENADO:
+domain=twitter.com
+about=Mariano Rajoy
