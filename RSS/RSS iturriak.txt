@@ -1,2 +1,3 @@
 http://ep00.epimg.net/rss/elpais/portada.xml
-http://www.larazon.es/rss/espana.xml
+http://estaticos.elmundo.es/elmundo/rss/espana.xml
+http://www.abc.es/rss/feeds/abc_EspanaEspana.xml
