@@ -1,0 +1,260 @@
+# -------------------------------------------------- 
+# Version: 1.0
+# Last update: (2015/10/23)
+# Authors: Iñaki San Vicente (i.sanvicente@elhuyar.com), Xabier Saralegi (x.saralegi@elhuyar.com)
+#          Elhuyar Foundation, R&D department.
+# --------------------------------------------------
+#
+# This is an Out Of Vocabulary (OOV) word list use by EliXa to normalize slang and commonly used abbreviations in Spanish
+#    + Spanish: 223 OOV-Standard_form combinations.
+#
+# The format of the dictionaries consist of "OOVword \t standardForm" and they are used for text normalization.
+#
+#
+#
+# ==============================
+#  LICENSE
+# ==============================
+#
+# Copyright 2016 Elhuyar Fundazioa
+#
+# This file is part of EliXa.
+#
+#    EliXa is free software: you can redistribute it and/or modify
+#    it under the terms of the GNU General Public License as published by
+#    the Free Software Foundation, either version 3 of the License, or
+#    (at your option) any later version.
+#
+#    EliXa is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU General Public License for more details.
+#
+#    You should have received a copy of the GNU General Public License
+#    along with EliXa.  If not, see <http://www.gnu.org/licenses/>.
+#
+
+
+a2	adiós
+acs	haces
+aii	ay
+aki	aquí
+Aki	Aquí
+alfinal	al_final
+Alfinal	Al_final
+alfin	al_fin
+alomejor	a_lo_mejor
+Alomejor	A_lo_mejor
+amoo	amo
+aqi	aquí
+ASDC	al_salir_de_clase
+asik	así_que
+asin	así
+Asin	Así
+asique	así_que
+Asique	Así_que
+ati	a_tí
+Ati	A_tí
+aunk	aunque
+Aunk	Aunque
+aunke	aunque
+Aunke	Aunque
+aunq	aunque
+Aunq	aunque
+Ayto	Ayuntamiento
+b7s	besitos
+bb?	¿lo ves?
+bboo	besos
+bbq	Barbacoa
+bdia	buen_día
+bdía	buen_día
+Bdia	Buen_día
+Bdía	Buen_día
+bdias	buenos_días
+Bdias	Buenos_días
+bdías	Buenos_días
+Bdías	Buenos_días
+bj	baja
+bn	bien
+Bn	Bien
+bss	besos
+bye	adiós
+CA	cuanto_antes
+cari	cariño
+cbt	cobertura
+clga	colega
+clg	cuelga
+cmo	como
+Cmo	Como
+cn	con
+cole	cole
+crg	cargador
+d2	dedos
+d da	de_día
+d	de
+dl	del
+dnd	donde
+Dnd	Donde
+dnd	dónde
+Dnd	dónde
+dsd	desde
+Dsd	Desde
+dsk	disco
+ee	eh
+ehh	eh
+EM	El_Mundo
+e-m	e-mail
+enfin	en_fin
+Enfin	En_Fin
+enga	venga
+ers 2?	¿eres tú?
+ers	eres
+eske	es_que
+Eske	Es_que
+esk	es_que
+Esk	Es_que
+esqe	es_que
+Esqe	Es_que
+esq	es_que
+Esq	es_que
+Esq	Es_que
+esque	es_que
+Esque	Es_que
+eys	ellos
+fb	Facebook
+FB	Facebook
+finde	fin_de_semana
+find	fin_de_semana
+gnl	genial
+Graná	Granada
+grnd	grande
+grr	enfadado
+hla	hola
+HL	hasta_luego
+hp	hijoputa
+hr	hora
+hsta	hasta
+ies	instituto
+insti	instituto
+jdt	jódete
+joe	joder
+kbron	cabrón
+kdda	quedada
+kdms	quedamos	
+keda	queda
+ke	que
+kls	clase
+kn	con
+kntm	cuéntame
+k pb!	¡qué plomo!
+ktal	qué_tal
+ktden	que_te_den
+kyat	cállate
+lao	lado
+lg	lugar
+lgo	luego
+ls	los
+mami	mami
+mimir	dormir
+Mimir	Dormir
+mñana	mañana
+mñna	mañana
+Mñna	Mañana
+mñn	mañana
+na	nada
+ná	nada
+n	en
+nose	no_sé
+noxes	noches
+Noxes	Noches
+ns	nos
+Ns	Nos
+nxe	noche
+otravez	otra_vez
+pa	para
+Pd	P.D.
+peli	película
+po	pues
+Po	Pues
+porai	por_ahí
+porfa	por_favor
+porfavor	por_favor
+Porfavor	por_favor
+porfin	por_fín
+Porfin	por_fín
+porfi	por_favor
+pork	porque
+Pork	Porque
+porqe	porque
+porq	porque
+pos	pues
+Pos	Pues
+ps	pues
+Ps	Pues
+Pte	presidente
+qee	que
+qe	que
+QE	que
+qien	quien
+q	que
+qrs	quieres
+qteng	que_tengo
+Qteng	Que_tengo
+queva	qué_va
+Queva	Qué_va
+qu	que
+Qu	Que
+qur	que
+rsa	risa
+smn	semana
+sq	es_que
+stoy	estoy
+tambn	también
+tb	también
+Tb	También
+tds	todos
+teamo	te_amo
+Teamo	te_amo
+teng	tengo
+Teng	Tengo
+teq	te_quiero
+tequieroo	te_quiero
+tequiero	te_quiero
+Tequiero	te_quiero
+TEQUIERO	te_quiero
+tl	tal
+tmbn	también
+toi	estoy
+to	todo
+tó	todo
+toy	estoy
+tq	te_quiero
+TQ	te_quiero
+tss	Chis
+tuto	tutor
+Tuto	Tutor
+venio	venido
+wapa	guapa
+Wapa	Guapa
+wasap	WhatsApp
+wa	WhatsApp
+WA	WhatsApp
+wena	buena
+weno	bueno
+whatsapp	WhatsApp
+Whatsapp	WhatsApp
+xa	para
+xfavor	por_favor
+xke	porque
+xk	porque
+xo	pero
+Xo	Pero
+x	por
+xq	porque
+Xq	porque
+XQ	porque
+xra	para
+xro	pero
+yasta	ya_está
+yooo	yo
+zorrasca	zorra

@@ -1,0 +1,49 @@
+# =============================================
+#  EliXa global polarity classification models
+# =============================================
+#
+#  
+#
+# --------------------------------------------------
+# Version: 0.8
+# Last update: (2016/01/18)
+# Authors: Iñaki San Vicente (i.sanvicente@elhuyar.com), Xabier Saralegi (x.saralegi@elhuyar.com)
+#          Elhuyar Foundation, R&D department. 
+# --------------------------------------------------
+# 
+# This tarball contains Elixa models from global polarity classification of messages in 4 languages (en,es,eu,fr) trained over Twitter
+# data obtained in the contest of the Behagunea (Behagunea.dss2016.eu) project.
+# Training datasets are specific of the topic "San Sebastian 2016 European Capital of Culture". 
+# More info on the models performance comming soon.
+#
+#
+#
+# .model files contain the binary models 
+# .cfg files contain the configuration files required by Elixa to run the models. 
+#
+# IMPORTANT: paths in the configuration files must be changed to much your own setup
+#
+#
+#
+# ==============================
+#  LICENSE
+# ==============================
+#
+# Copyright 2016 Elhuyar Fundazioa
+#
+# This file is part of EliXa.
+#
+#    EliXa is free software: you can redistribute it and/or modify
+#    it under the terms of the GNU General Public License as published by
+#    the Free Software Foundation, either version 3 of the License, or
+#    (at your option) any later version.
+#
+#    EliXa is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU General Public License for more details.
+#
+#    You should have received a copy of the GNU General Public License
+#    along with EliXa.  If not, see <http://www.gnu.org/licenses/>.
+#
+
