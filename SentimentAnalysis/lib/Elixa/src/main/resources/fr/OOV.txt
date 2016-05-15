@@ -1,0 +1,317 @@
+# --------------------------------------------------
+# Version: 1.0
+# Last update: (2015/10/23)
+# Authors: Iñaki San Vicente (i.sanvicente@elhuyar.com), Xabier Saralegi (x.saralegi@elhuyar.com)
+#          Elhuyar Foundation, R&D department. 
+# --------------------------------------------------
+# 
+# This is an Out Of Vocabulary (OOV) word list use by EliXa to normalize slang and commonly used abbreviations in french
+#    + French: 279 OOV-Standard_form combinations.
+#
+# The format of the dictionaries consist of "OOVword \t standardForm" and they are used for text normalization. 
+#
+#
+#
+# ==============================
+#  LICENSE
+# ==============================
+#
+# Copyright 2016 Elhuyar Fundazioa
+#
+# This file is part of EliXa.
+#
+#    EliXa is free software: you can redistribute it and/or modify
+#    it under the terms of the GNU General Public License as published by
+#    the Free Software Foundation, either version 3 of the License, or
+#    (at your option) any later version.
+#
+#    EliXa is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU General Public License for more details.
+#
+#    You should have received a copy of the GNU General Public License
+#    along with EliXa.  If not, see <http://www.gnu.org/licenses/>.
+#
+
+
+
+b1	bien
+b1sur	Bien_sûr
+bcp	Beaucoup
+bjr	Bonjour
+bsr	Bonsoir
+slt	Salut
+c	C’est
+c-a-d	C’est-à-dire
+c_cho	c'est_chaud
+dac	d'accord
+dsl	Désolé
+DQP	Dès_que_possible
+g	J’ai
+jms	Jamais
+jtm	Je_t’aime
+kan	quand
+qd	quand
+kom	comme
+ke	que
+koid9	Quoi_de_neuf?
+mr6	merci
+ok1	Aucun
+qqn	Quelqu’un
+RAS	Rien_à_signaler
+re	rebonjour
+tjs	Toujours
+tt	Tout
+v1	Viens
+X_mo	Crois-moi
+ya	Il_y_a
+tlm	Tout_le_monde
+pkoi	Pourquoi
+pk	Pourquoi
+stp	s'il_te_plaît
+stp	s'il_vous_plaît
+mdr	Mort_de_rire
+lol	Mort_de_rire
+ptdr	pété_de_rire
+gg	good_game
+t1kiet	t'inquiètes
+t'es	tu_es
+chui	Je_suis
+MSG	message
+PK	pourquoi?
+QQC	quelque_chose
+QQ1	quelqu’un
+BZ	bisous
+cb	combien
+cmb	comme_ma_bite
+cmfubj	ça_me_fait_une_belle_jambe
+ctb	comme_ta_bite
+déso	désolé
+dézo	désolé
+dsl	désolé
+DTC	dans_ton_cul
+dtc	dans_ton_cul
+MAJ	mise_à_jour
+màj	mise_à_jour
+mdr	mort_de_rire
+OKLM	Au_calme
+oklm	Au_calme
+pg	pas_grave
+pj	pièce_jointe
+pk	pourquoi
+pkoi	pourquoi
+pq	pourquoi
+rpz	représente
+sjmsb	si_je_me_souviens_bien
+sjnma	si_je_ne_m'abuse
+stp	s'il_te_plaît
+talc	topic_à_la_con
+tfk	tu_fais_quoi_?
+tfq	tu_fais_quoi_?
+tg	ta_gueule_!
+tkt	t'inquiète_!
+tqt	t'inquiète_!
+Trkl	tranquille_!
+trk	tranquille_!
+VDM	vie_de_merde
+vdm	vie_de_merde
+xdr	explosé_de_rire
+xpdr	explosé_de_rire
+xpldr	explosé_de_rire
+a12c4	à_un_de_ces_quatre
+a_tte	à_tout_à_l'heure
+abs	absent
+ak	avec
+ac	avec
+a_dem	à_demain
+a_2m1	à_demain
+ajd	aujourd'hui
+oj	aujourd'hui
+auj	aujourd'hui
+oggi	aujourd'hui
+ojd	aujourd'hui
+amha	à_mon_humble_avis
+atm	pour_le_moment
+att	attend
+atta	attend
+alp	à_la_prochaine
+arf	consternation
+erf	consternation
+bb	bébé
+btg	Bien_ta_grotte_?
+bsx	bisou
+biz	bisou
+bzx	bisou
+bj	bien_joué
+bjp	bien_joué_partenaire
+bjr	bonjour
+bsr	bonsoir
+bl	bas_level
+bizz	bisous
+cad	c’est-à-dire
+càd	c’est-à-dire
+cb	combien
+ct	c'était
+ctb	comme_ta_bite
+chq	chaque
+cmt	comment
+Ctoo	c'est_tout
+c'tou	c'est_tout
+Stoo	c'est_tout
+dacc	d'accord
+dac	d'accord
+dc	donc
+dr	de_rien
+2r1	de_rien
+ds	dans7
+dsl	désolé
+dtf	dans_ta_face
+dtf	de_toute_façon
+dtg	dans_ta_gueule
+dtc	dans_ton_cul
+expdr	explosé_de_rire
+exptdr	explosé-pété_de_rire
+fc	fais_chier
+fdg	foutage_de_gueule
+fdp	fils_de_pute
+fds	fin_de_semaine
+fpc	fais_pas_chier
+gg	Félicitations
+ou	Félicitations
+gz	Félicitations
+hrs	heures
+img	image
+irl	in_real_life
+jam	j'en_ai_marre
+jerry	j'ai_ri
+jgo	j'y_go
+jjmv	je_joue_ma_vie
+jmef	je_m'en_fiche
+jtdr	je_t'adore
+jpp	j'en_peux_plus
+jre	je_reviens
+jtd	je_t'adore
+jtdg	je_t'adore_grave
+jtj	je_te_jure
+jtm	je_t'aime
+j'tm	je_t'aime
+K-Sos	cas_social
+Keske	qu'est-ce_que
+Keskon	qu'est-ce_qu'on
+Kdo	cadeau
+Kikoo	coucou
+kikou	coucou
+Kefa	Qu'es_que_tu_fais?
+lo	bonjour
+maj	Mise_à_jour
+màj	Mise_à_jour
+mg	Ma_gueule
+maggle	Ma_gueule
+mci	merci
+mici	merci
+mnt	maintenant
+now	maintenant
+mob	mal_au_bide
+mp	message_personnel
+mrd	merde
+ms	moule_shot
+msg	message
+mess	message
+nawak	N'importe_quoi
+ndc	nom_de_compte
+n'imp	N'importe_quoi
+noraj	No_Rage
+nrv	énervé
+nrj	énergie
+ns	nous
+ntm	nettoie_ta_mobilette
+oki	ok
+oqp	occupé
+osef	on_s'en_fout
+osela	on_s'en_lustre_l'asperge
+pb	problème
+pd	pédé
+pds	pas_de_souci
+pdt	pas_de_tahlab
+pdt	pendant
+pg	pas_grave
+pj	petit_joueur
+pk	pourquoi
+pq	pourquoi
+pkoi	pourquoi
+pr	pour
+prtt	pourtant
+psk	parce_que
+pck	parce_que
+pq	parce_que
+pcq	parce_que
+prck	parce_que
+p-t	peut-être
+p-e	peut-être
+pê	peut-être
+plv	pour_la_vie
+px	peux
+ppv	potes_pour_la_vie
+pyj	pyjama
+qtf	qu'es_tu_fou?
+qq	quelque
+qqn	quelqu'un
+qq'un	quelqu'un
+qq1	quelqu'un
+qqchose	quelque_chose
+kkchose	quelque_chose
+qqchz	quelque_chose
+qqch	quelque_chose
+qqc	quelque_chose
+qqpart	quelque_part
+qt	quantité
+rav	rien_à_voir
+raz	remise_à_zéro
+rb	revient_bientôt
+rgd	regarde
+rdv	rendez-vous
+rtl	raconte_ta_life
+slt	salut
+slu	salut
+snn	sinon
+spd	sois_pas_dèg
+spj	sois_pas_jaloux
+st	sont
+srx	sérieux
+sm	Sado-maso
+tbk	tabarnak
+tfk	tu_fais_quoi?
+tg	ta_gueule
+taggle	ta_gueule
+tjrs	toujours
+tjs	toujours
+tjr	toujours
+tlbm	tu_l'as_bien_mérité
+tlm	tout_le_monde
+tlmt	tellement
+tmlt	tu_me_laisses_tranquille
+tmm	tu_me_manques
+tmtc	toi-même_tu_sais
+toussa	Tout_ça
+tps	temps
+tmp	temps
+tsé	tu_sais
+trkl	Tranquille
+ttf	toute_façon
+ty	merci
+tyl	ta_yeule
+vdm	vie_de_merde
+vg	vos_gueules
+voggle	vos_gueules
+vnr	vénère
+vrmt	vraiment
+vrm	vraiment
+vs	vous_ou_contre
+vtp	va_te_pendre
+vt	veut
+vx	veux
+w-e	week-end
+we	week-end
+xl	excellent
+xlt	excellent

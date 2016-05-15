@@ -1,0 +1,116 @@
+# --------------------------------------------------
+# Version: 1.0
+# Last update: (2015/10/23)
+# Authors: Iñaki San Vicente (i.sanvicente@elhuyar.com), Xabier Saralegi (x.saralegi@elhuyar.com)
+#          Elhuyar Foundation, R&D department.
+# --------------------------------------------------
+#
+# This is an Out Of Vocabulary (OOV) expression list use by EliXa to normalize slang and commonly used abbreviations in Basque
+#    + English: 74 OOV-Standard_form combinations.
+#
+# The format of the dictionaries consist of "OOVword \t standardForm" and they are used for text normalization.
+#
+# This is list is compiled from:
+#             - manually built list from Semeval 2013 Twitter Sentiment Analysis training corpus.
+#
+#
+#
+# ==============================
+#  LICENSE
+# ==============================
+#
+# Copyright 2016 Elhuyar Fundazioa
+#
+# This file is part of EliXa.
+#
+#    EliXa is free software: you can redistribute it and/or modify
+#    it under the terms of the GNU General Public License as published by
+#    the Free Software Foundation, either version 3 of the License, or
+#    (at your option) any later version.
+#
+#    EliXa is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU General Public License for more details.
+#
+#    You should have received a copy of the GNU General Public License
+#    along with EliXa.  If not, see <http://www.gnu.org/licenses/>.
+#
+
+
+
+
+#manually built list from Semeval 2013 tweet corpus
+lol	Laughing_out_loud
+C'mon	come_on
+dont	do_not
+y'all	you_all
+c'mon	come_on
+ya	you
+tho	though
+goin	going
+xx	kisses
+tix	tickets
+LOL	Laughing_out_loud
+cuz	Because
+Lol	Laughing_out_loud
+ur	Your_You_Are
+Niggas	niggers
+cont	continued
+bday	birthday
+yrs	years
+nigga	nigger
+qtr	quarter
+pic	picture
+ima	I_am_going_to
+idk	I_don't_know
+WE	whatever
+omg	Oh_my_god
+nite	Good_night
+imma	I'm_going_to
+b4	before
+Teen	teenager
+OMG	Oh_my_god
+Utd	Up_to_date
+smh	Shaking_my_head
+lmao	In_my_arrogant_opinion
+tryna	trying_to
+POTUS	President_of_the_United_States
+pics	pictures
+Ex	Former_girlfriend
+CNY	Chinese_New_Year
+AJ	apple_juice
+A$AP	As_soon_as_possible
+#1	Number_one
+yall	You_all
+Tryna	Trying_To
+st	something
+ppl	people
+ep	extended_play
+C4	Plastic_explosive
+WBB	Will_Be_Back
+rd	Real_Deal
+hw	Homework
+fam	family
+def	cool
+CBB	can't_be_bothered
+ASAP	As_Soon_As_Possible
+yep	yes
+RSVP	Repondez_s'il_vous_plait
+Rih	Rot_In_Hell
+Omg	Oh_my_god
+nov	Novice
+isnt	is_not
+Idk	I_don't_know
+Dont	do_not
+doesnt	does_not
+didnt	did_not
+btw	by_the_way
+ATTN	Attention
+Xx	Kisses
+TMH	Touch_My_Hand
+tht	that
+Rd	Real_Deal
+prob	probably
+pls	please
+ng	no_good

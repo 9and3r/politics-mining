@@ -1,0 +1,8 @@
+Ejecutar:
+java -jar SentimentAnalysis.jar
+
+Opciones:
+-i o --input para cambiar la carpeta de archivos de entrada (por defecto input)
+-o o --output para cambiar la carpeta de archivos de salida (por defecto output)
+-t o --temp para cambiar la carpeta de archivos temporales (por defecto temp)
+-h o --help para ver menú de ayuda

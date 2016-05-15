@@ -1,0 +1,100 @@
+# --------------------------------------------------
+# Version: 1.0
+# Last update: (2015/10/23)
+# Authors: Iñaki San Vicente (i.sanvicente@elhuyar.com), Xabier Saralegi (x.saralegi@elhuyar.com)
+#          Elhuyar Foundation, R&D department.
+# --------------------------------------------------
+#
+# This is an Out Of Vocabulary (OOV) expression list use by EliXa to normalize slang and commonly used abbreviations in Basque
+#    + Basque: 63 OOV-Standard_form combinations.
+#
+# The format of the dictionaries consist of "OOVword \t standardForm" and they are used for text normalization.
+# The list has been compile from a corpus compiled from Twitter.
+#
+#
+#
+# ==============================
+#  LICENSE
+# ==============================
+#
+# Copyright 2016 Elhuyar Fundazioa
+#
+# This file is part of EliXa.
+#
+#    EliXa is free software: you can redistribute it and/or modify
+#    it under the terms of the GNU General Public License as published by
+#    the Free Software Foundation, either version 3 of the License, or
+#    (at your option) any later version.
+#
+#    EliXa is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU General Public License for more details.
+#
+#    You should have received a copy of the GNU General Public License
+#    along with EliXa.  If not, see <http://www.gnu.org/licenses/>.
+#
+
+ondoloin	ondo_lo_egin
+jun	joan
+hontan	honetan
+earra	ederra
+earki	ederki
+Ondoloin	Ondo_lo_egin
+ustet	uste_dut
+oain	orain
+taa	eta
+ondolooin	ondo_lo_egin
+lota	lotara
+gehio	gehiago
+politta	polita
+ondoo	ondo
+jungo	joango
+izangoa	izango_da
+Etaa	Eta
+Eguunoon	Egun_on
+Eguunon	Egun_on
+dpm	de_puta_madre
+uaindik	oraindik
+politte	polita
+pixxkat	pixka_bat
+partidue	partidua
+oon	on
+oidek	hori_da
+oaindik	oraindik
+Oain	orain
+maitte	maite
+Maiteizuuut	Maite_zaitut
+Maitasuneee	Maitasuna
+kontzertun	kontzertuan
+iual	igual
+itten	egiten
+hooorr	hor
+geyo	gehiago
+gauur	gaur
+gaudee	gaude
+eztiazu	ez_didazu
+Eztao	Ez_dago
+eztao	ez_dago
+Eztakit	Ez_dakit
+eztakit	ez_dakit
+dezute	duzue
+bihaar	bihar
+azkenian	azkenean
+Atzeapena	Atzerapena
+ateatzea	ateratzea
+astebukaerie	aste_bukaera
+aprobaauta	aprobatuta
+zorixonak	zorionak
+Zooragarrie	zoragarria
+zitzaitela	zitzaidala
+zeoze	zeozer
+zeondo	ze_ondo
+zemouz	zer_moduz
+zemuz	zer_moduz
+zebaaaa	ze_ba
+zeatik	zergatik
+biherkueeeeeee	biharkoa
+berdinketia	berdinketa
+belarrixetatik	belarrietatik
+aupaekipo	aupa_ekipo

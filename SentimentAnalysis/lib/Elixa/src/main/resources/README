@@ -1,0 +1,108 @@
+This directory contains the resources needed by EliXa to perform various task such as text normalization, emoticon detection or polarity tagging.
+
+===============================
+LICENSE
+===============================
+
+Resources contained in this tarball have been prepared using a variety of resources which are distributed under various licenses. Therefore, in compliance with the licensing terms, the dictionaries contained in this folder are distributed according to their licenses.
+
+Please read the licenses at the beginning of each file, for terms about distribution and use of these resources are included. If no license text is included, the license of EliXa is applied:
+
+Copyright 2016 Elhuyar Fundazioa
+
+This file is part of EliXa.
+
+    EliXa is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    EliXa is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with EliXa.  If not, see <http://www.gnu.org/licenses/>.
+
+
+
+===============================
+RESOURCES
+===============================
+
+Resources are organized in a per language basis. Currently resources for Basque(eu), English(en), Spanish(es) and French(fr) are provided.
+
+--------------------------------
+
+- Polarty lexicons (lang/*.lex files): 
+    + Basque: 1251 lemma-polarity annotations.
+    + English: 12973 lemma-polarity annotations. 
+    + Spanish: 7811 lemma-polarity annotations. 
+    + French: 14151 lemma-polarity annotations.
+
+The format of the dictionaries consist of "word \t polarity" and it can be 
+used to perform tag polarity of words or as resource for polarity classification of documents.
+
+--------------------------------
+
+- Form dictionaries (lang/formDict.txt files):
+    + Basque: 122085 word list.
+    + English: 67811 word list.
+    + Spanish: 556501 word list. 
+    + French: 453037 word list.
+   
+The format of the word form dictionaries consist of "word" and they are used for text normalization (e.g. 4ever ->forever).
+
+--------------------------------
+
+- Out Of Vocabulary (OOV) word lists (lang/OOV.txt files):
+    + Basque: 63 OOV-Standard_form combinations.
+    + English: 7823 OOV-Standard_form combinations.
+    + Spanish: 223 OOV-Standard_form combinations.
+    + French: 279 OOV-Standard_form combinations.
+
+
+The format of the dictionaries consist of "OOVword \t standardForm" and they are used for text normalization. 
+
+--------------------------------
+
+- Emoticon polarity lexicon:
+    + emoticons.lex: 60 regex-correspondingGroup combinations.
+ 
+Emoticon lexicons is a list of regexes (Java syntax) matching one or more emoticons, mapped into a 5 category schema. The following values are used:
+
+        * SMILEYEMOT - emoticons matching smiley faces
+        * CRYEMOT - emoticons matching smiley faces
+        * SHOCKEMOT - emoticons matching shocking faces
+        * MUTEEMOT - emoticons matching mute faces
+        * ANGRYEMOT - emoticons matching angry faces
+        * KISSEMOT - emoticons matching kisses
+        * SADEMOT - emoticons matching sad faces
+
+This emoticons are used at text normalization step as well as as clues for polarity classification.
+* IMPORTANT NOTE: it is up to the user to include the elements of this schema in the polarity lexicon and assign them polarities. 
+
+===============================
+ HOW TO USE THIS RESOURCES
+===============================
+
+Extract the contents of this tarball in the src/main/resources directory of your EliXa distribution before compilation.
+
+You will also need to edit the your EliXa configuration file in order to give the paths of the polarity lexicons.
+
+
+
+
+
+Contact details: 
+----------------
+Iñaki San Vicente <i.sanvicente@elhuyar.com>
+Elhuyar Foundation R&D department
+
+Xabier Saralegi <x.saralegi@elhuyar.com>
+Elhuyar Foundation R&D department
+
+Rodrigo Agerri <rodrigo.agerri@ehu.es>
+IXA NLP Group
+University of the Basque Country (UPV/EHU)
