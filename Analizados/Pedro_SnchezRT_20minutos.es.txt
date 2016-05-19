@@ -1,0 +1,8 @@
+RT 20minutos.es: .Pedro Sánchez ( PSOE ) en #elnuevo20m Cinco grandes temas y abrir las ventanas https://t.co/kGYExS3Pcs https://t.co/51Id3TXqx8
+##########
+title=Pedro SánchezRT 20minutos.es
+domain=twitter.com
+about=Pedro Sánchez
+positive=1
+neutral=1
+negative=0

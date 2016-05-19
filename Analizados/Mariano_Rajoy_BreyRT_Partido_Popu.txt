@@ -1,0 +1,8 @@
+RT Partido Popular: ¿Cuál es la alternativa al PP? Gobiernos débiles, paralizados y que derogan todo lo que ya ha funcionado Mariano Rajoy Brey #BuenG…
+##########
+title=Mariano Rajoy BreyRT Partido Popu
+domain=twitter.com
+about=PP
+positive=0
+neutral=2
+negative=0

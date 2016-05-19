@@ -1,0 +1,8 @@
+RT PP Balears: Els nostres candidats a les eleccions del #26J amb Mariano Rajoy Brey Partido Popular #BuenGobierno #AhoraMasQueNunca https://t.co/p9GA…
+##########
+title=Mariano Rajoy BreyRT PP Balears: 
+domain=twitter.com
+about=RT PP
+positive=1
+neutral=0
+negative=0

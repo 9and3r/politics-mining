@@ -1,0 +1,8 @@
+Nuestro deber moral es el de refugiar, pero Rajoy no ha estado a la altura. #refugiados https://t.co/NhVATUc8Qq https://t.co/nR5iIjK7ZZ
+##########
+title=Pedro SánchezNuestro deber m
+domain=twitter.com
+about=Mariano Rajoy
+positive=0
+neutral=1
+negative=0

@@ -1,0 +1,8 @@
+RT PODEMOS: A las 13:30 Pablo Iglesias estará en AlRojoVivo. ¡Os esperamos! Directo: https://t.co/PhOcgdtBSd https://t.co/KYT…
+##########
+title=Pablo IglesiasRT PODEMOS: A l
+domain=twitter.com
+about=Pablo Iglesias
+positive=0
+neutral=2
+negative=0

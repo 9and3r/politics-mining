@@ -1,0 +1,15 @@
+MÁS INFORMACIÓN
+Detenido por el ataque informático a los promotores del Toro de la Vega
+Un juez anula el permiso que autorizó el Toro de la Vega en 2014
+Los animalistas denuncian fallos de seguridad en el último Toro de la Vega
+El Consejo de Gobierno de la Junta de Castilla y León ha aprobado este jueves un decreto ley que prohíbe matar reses de lidia en espectáculos taurinos populares, lo que afecta al Toro de la Vega que se celebra en la localidad vallisoletana de Tordesillas en septiembre.
+El Gobierno de la comunidad no impide la celebración de este torneo, pero sí que el animal muera lanceado, ha explicado la portavoz de la Junta, Rosa Valderón. El Toro de la Vega se celebra cada año en medio de la polémica por las reacciones que suscita entre los seguidores y detractores de la fiesta. 
+El pasado septiembre, el Partido contra el Maltrato Animal (Pacma) organizó una marcha en Madrid donde miles protestaron contra el festejo de origen medieval y reconocido como Fiesta de Interés Turístico Nacional. El Pacma entregó, además, 120.000 firmas al alcalde de Tordesillas, José Antonio González, del PSOE, para que anulara esa tradición que tildaron como "uno de los festejos más crueles".
+Rompesuelas fue el último animal que murió alanceado en Tordesillas. En septiembre pasado, el animal tardó 20 minutos en caer abatido en el campo.  El jurado, sin embargo, declaró "nula" la muerte del morlaco por incumplimiento del propio reglamento del torneo. 
+##########
+title=http://elpais.com/politica/2016/05/19/actualidad/1463656945_283251.html#?ref
+domain=elpais.com
+about=PSOE
+positive=4
+neutral=2
+negative=6

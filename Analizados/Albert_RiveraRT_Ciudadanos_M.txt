@@ -1,0 +1,9 @@
+RT Ciudadanos Madrid: ↪.SUSANA SOLIS "¿Donde queda el compromiso del PP con el I+D y la innovación? Sólo en los titulares" #PlenoAsamblea
+https:/…
+##########
+title=Albert RiveraRT Ciudadanos M
+domain=twitter.com
+about=PP
+positive=0
+neutral=2
+negative=1

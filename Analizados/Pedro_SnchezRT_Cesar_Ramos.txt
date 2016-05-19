@@ -1,0 +1,8 @@
+RT Cesar Ramos: Recomiendo la visión sobre la situación de los refugiados contada en primera persona por Pedro Sánchez https://t.co/SRW…
+##########
+title=Pedro SánchezRT Cesar Ramos:
+domain=twitter.com
+about=Pedro Sánchez
+positive=1
+neutral=0
+negative=0

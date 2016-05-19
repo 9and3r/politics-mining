@@ -1,0 +1,8 @@
+RT M. Monereo: Me han convencido de asomarme por aquí. Cuenta conmigo, Pablo Iglesias
+##########
+title=Pablo IglesiasRT M. Monereo: 
+domain=twitter.com
+about=Pablo Iglesias
+positive=1
+neutral=1
+negative=0
