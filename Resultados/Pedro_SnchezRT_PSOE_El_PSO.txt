@@ -1,0 +1,5 @@
+RT PSOE: El PSOE sale a ganar el #26J. No se pudo el cambio de gobierno por la intransigencia de Iglesias y el inmovilismo de Rajoy @oscar…
+##########
+title=Pedro SánchezRT PSOE: El PSO
+domain=twitter.com
+about=Mariano Rajoy
