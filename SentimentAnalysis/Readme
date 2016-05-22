@@ -1,3 +1,6 @@
+Dependencias:
+La carpeta lib tiene que estar donde se ejecute el jar, para acceder a Elixa (lib/Elixa).
+
 Ejecutar:
 java -jar SentimentAnalysis.jar
 
