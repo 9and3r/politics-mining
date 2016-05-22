@@ -29,7 +29,7 @@ public class Elixa {
 		try {
 			pb.redirectInput(new File(input));
 			Process p = pb.start();
-
+			
 			LogStreamReader lsr = new LogStreamReader(p.getInputStream(), texto.getId());
 			Thread thread = new Thread(lsr, "LogStreamReader");
 			thread.start();
@@ -47,11 +47,13 @@ public class Elixa {
 		int fraseid=0;
 		String[] frases= texto.getText().split("(?<=[.?!\\t\\n])(?<![A-Z]\\.)\\s*(?=([A-Z-—\"0-9]|((¿|¡)[A-Z0-9])))");
 		for(String frase:frases)
-			if(frase.compareTo("")!=0){
-				ireom+=texto.getId()+"-"+fraseid+"\t"+frase+"\n";
+			if(frase.replaceAll("\\s*","").compareTo("")!=0){
+				frase = frase.replaceAll("[^0-9¿!¡\\?\\.,;\\s\\p{L}]+", ""); //dejar solo caracteres, numeros, espacios y algunos signos de puntuacion
+				if(fraseid>0)
+					ireom+="\n";
+				ireom+=texto.getId()+"-"+fraseid+"\t"+frase;
 				fraseid++;
 			}
-		//ireom+=texto.getId()+"-"+fraseid+"\t"+texto.getText()+"\n";
 		return GestorFicheros.crearTemp(ireom,texto.getPath());
 	}
 }

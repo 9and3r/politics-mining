@@ -3,13 +3,13 @@ package aplicacion;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.FileOutputStream;
-import java.io.FileReader;
-import java.io.FileWriter;
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
-import java.io.UnsupportedEncodingException;
 import java.nio.charset.Charset;
+import java.nio.charset.CharsetDecoder;
 import java.nio.charset.CharsetEncoder;
 import java.nio.charset.CodingErrorAction;
 import java.util.Vector;
@@ -62,8 +62,11 @@ public class GestorFicheros {
 
 	public static Texto leerFichero(String path, String filename){
 		try {
-			BufferedReader br = new BufferedReader(new FileReader(path+filename));
-			StringBuilder text = new StringBuilder();
+			CharsetDecoder decoder = Charset.forName("UTF-8").newDecoder();
+			decoder.onMalformedInput(CodingErrorAction.REPORT);
+			decoder.onUnmappableCharacter(CodingErrorAction.REPORT);
+			BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(path+filename),decoder.charset()));
+			StringBuilder text = new StringBuilder(); 
 			StringBuilder title = new StringBuilder();
 			StringBuilder domain = new StringBuilder();
 			StringBuilder about = new StringBuilder();
